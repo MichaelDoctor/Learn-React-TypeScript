@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Create
+npx create-react-app insert-app-name --template typescript
+
+## Setup eslint
+// Remove default "eslintConfig" from package.json
+npm i -D eslint
+npx eslint --init
+// check syntax, find problems, and enfore code style > JavaScript modules > React > Yes > Browser > Popular style guide > Airbnb
+npm i -D eslint-import-resolver-typescript
+// Change .eslintrc.json
+
+## Setup Redux
+
+npm i -D @types/redux @types/react-redux @types/redux-thunk
+
