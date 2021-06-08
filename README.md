@@ -58,4 +58,4 @@ Choices: check syntax, find problems, and enfore code style > JavaScript modules
 Change .eslintrc.json
 
 ## Setup Redux
-### `npm i -D @types/redux @types/react-redux @types/redux-thunk`
+### `npm i redux react-redux redux-thunk redux-devtools-extension @types/redux @types/react-redux @types/redux-thunk`
