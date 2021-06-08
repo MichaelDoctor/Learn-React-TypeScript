@@ -5,6 +5,7 @@ import Test2, { CustomColour } from './components/EnumProps';
 import ReducerTest from './components/ReducerTest';
 import ReduxTest from './components/ReduxTest';
 import TestSelect from './components/TestSelect';
+import TestChart from './components/TestChart';
 
 const App: React.FC = () => {
   const [text, setText] = useState<string>('Text input');
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <ReducerTest />
       <ReduxTest />
       <TestSelect />
+      <TestChart />
     </div>
   );
 };
