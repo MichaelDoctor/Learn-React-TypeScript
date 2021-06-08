@@ -59,3 +59,7 @@ Change .eslintrc.json
 
 ## Setup Redux
 ### `npm i redux react-redux redux-thunk redux-devtools-extension @types/redux @types/react-redux @types/redux-thunk`
+
+## Setup MaterialUI
+### `npm install @material-ui/core @material-ui/icons @types/material-ui`
+Add to index.html
